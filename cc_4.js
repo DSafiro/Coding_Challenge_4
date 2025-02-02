@@ -30,3 +30,13 @@ do { // Creates a loop to increase responses
     console.log(`Responses Collected: ${responses}`) // Outputs responses collected
     responses++ // Increases responses by 1
 } while (responses <= 3) // Stops increasing responses when it reaches 3
+
+// Task 5: Employee Information
+let employee = {
+    name: "Dora",
+    position: "Explorer",
+    salary: 56000
+} // Declares employee object
+for (let property in employee) { // Identifies properties in employee variable
+    console.log(`${property}: ${employee[property]}`) // Outputs employee properties
+}
