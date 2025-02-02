@@ -58,3 +58,9 @@ function calculateTax(amount, taxRate){ // Creates function to calculate tax
     return amount * taxRate // Multiplies amount by taxRate to find calculated tax
 }
 console.log(`Calculated Tax: $${calculateTax(820, 0.075)}`) // Outputs calculated tax
+
+// Task 9: Discount Application
+function applyDiscount(price, discountPercentage){ // Created fucntion to find discounted price
+    return price * discountPercentage // Returns discounted price by multiplying price by discountPercentage
+}
+console.log(`Discounted Price: $${applyDiscount(75, 0.85)}`) // Outputs discounted price
