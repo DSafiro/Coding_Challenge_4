@@ -23,3 +23,10 @@ while (stock >= 0) { // Creates loop to decrease stock by 1
     console.log(`Stock: ${stock}`) // Outputs reamaining stock
     stock-- // Decreases stock by 1
 }
+
+// Task 4: Customer Survey
+let responses = 0 // Declares responses amount
+do { // Creates a loop to increase responses
+    console.log(`Responses Collected: ${responses}`) // Outputs responses collected
+    responses++ // Increases responses by 1
+} while (responses <= 3) // Stops increasing responses when it reaches 3
