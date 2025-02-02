@@ -16,3 +16,10 @@ for (let sale = 0; sale < sales.length; sale++){ // Totals sales until all sales
 totalSales += sales[sale] // Sums sales figure amount into totalSales
 }
 console.log(`Total Sales: $${totalSales}`) // Outputs total sales
+
+// Task 3: Inventory Depletion
+let stock = 10 // Declares initial stock amount
+while (stock >= 0) { // Creates loop to decrease stock by 1
+    console.log(`Stock: ${stock}`) // Outputs reamaining stock
+    stock-- // Decreases stock by 1
+}
