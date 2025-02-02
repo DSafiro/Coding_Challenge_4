@@ -40,3 +40,9 @@ let employee = {
 for (let property in employee) { // Identifies properties in employee variable
     console.log(`${property}: ${employee[property]}`) // Outputs employee properties
 }
+
+// Task 6: Product Listing
+let products = ["PlayStation 4", "Xbox One", "Nintendo Switch"] // Declares array of products
+for (let productName of products){ // Creates loop to display each product
+    console.log(`Product Name: ${productName}`) // Outputs product name
+}
