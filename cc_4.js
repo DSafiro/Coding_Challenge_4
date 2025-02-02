@@ -41,8 +41,14 @@ for (let property in employee) { // Identifies properties in employee variable
     console.log(`${property}: ${employee[property]}`) // Outputs employee properties
 }
 
-// Task 6: Product Listing
+// Task 6: Product Listings
 let products = ["PlayStation 4", "Xbox One", "Nintendo Switch"] // Declares array of products
 for (let productName of products){ // Creates loop to display each product
     console.log(`Product Name: ${productName}`) // Outputs product name
 }
+
+// Task 7: Order Processing
+let orders = [649, 750, 452] // Declares orders array
+orders.forEach(orderID => // Identifies orderID in array
+    console.log(`Order ID: ${orderID}`) // Outputs order ID into console
+)
