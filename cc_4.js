@@ -52,3 +52,9 @@ let orders = [649, 750, 452] // Declares orders array
 orders.forEach(orderID => // Identifies orderID in array
     console.log(`Order ID: ${orderID}`) // Outputs order ID into console
 )
+
+// Task 8: Tax Calculation
+function calculateTax(amount, taxRate){ // Creates function to calculate tax
+    return amount * taxRate // Multiplies amount by taxRate to find calculated tax
+}
+console.log(`Calculated Tax: $${calculateTax(820, 0.075)}`) // Outputs calculated tax
