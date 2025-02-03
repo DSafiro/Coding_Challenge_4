@@ -64,3 +64,10 @@ function applyDiscount(price, discountPercentage){ // Created fucntion to find d
     return price * discountPercentage // Returns discounted price by multiplying price by discountPercentage
 }
 console.log(`Discounted Price: $${applyDiscount(75, 0.85)}`) // Outputs discounted price
+
+// Task 10: Loyalty Points
+let purchasedAmount = 400 // Declares purchased amount variable
+const calculatePoints = amount => amount / 10 // Divides purchase amount by 10 to calculate points earned
+console.log(`Purchased Amount: $${purchasedAmount}`) // Outputs purchased amount
+console.log(`Points Earned: ${calculatePoints(purchasedAmount)}`) // Outputs points earned
+
